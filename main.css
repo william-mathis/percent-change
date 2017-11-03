@@ -55,7 +55,9 @@ table {
 
 button {
   border-radius: 4px;
-  background-colo:
+  background-color: #DAD7CD;
+  color: #47494C;
+  font-weight: bold;
 }
 
 
