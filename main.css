@@ -86,6 +86,11 @@ button {
   display: inline-block;
 }
 
+.new {
+  /*color: #0B5351;*/
+  color: #119DA4;
+}
+
 
 /* Start your base/mobile styles here */
 
