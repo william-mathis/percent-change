@@ -1,0 +1,54 @@
+<!-- 1. Load a video on the page using the method we learned in class.
+2. Add a play button, a pause button and a stop button that work.
+3. Your player, pause and stop buttons should be public methods on your object-->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Percent change</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+    <!-- <link href="style.css" rel="stylesheet"> -->
+    <!-- <link rel="shortcut icon" href="images/mathis_favicon.ico" type="image/x-icon"> -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <h1 class='head'>Calculate percent change:</h1>
+      <p class='text'>So you want to calculate percent change, but get confused what that is. That's okay. Just enter in the newer number in the new number field and the older number in the older number field and hit the calculate button.</p>
+
+      <div class='numbers'>Old number: <input type="number" id="oldNum" /></div>
+
+      <br>
+      <div class='numbers'>
+        New number: <input type="number" id='newNum' /></div>
+      <br>
+      <button id='calculate'>Calculate</button>
+      <br>
+      <p id='change' class='numbers'></p>
+      <!-- <div class='youtube' data-id="bjU78gQP3v4"></div>
+      <div class='youtube' data-id="JKRMhC7gEAo"></div> -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- Your javascript should be called here -->
+
+    <script src="main.js"></script>
+  </body>
+
+</html>
